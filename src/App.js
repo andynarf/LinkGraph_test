@@ -3,7 +3,6 @@ import { Provider } from "react-redux";
 import store from "./redux/store";
 import Post from './components/Post';
 import Persons from './components/Persons';
-import AutoCompleteComponent from './components/AutoCompleteComponent'
 
 function App() {
 

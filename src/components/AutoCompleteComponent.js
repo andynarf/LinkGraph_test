@@ -1,7 +1,4 @@
-import { connect } from "react-redux";
-
 import React, { Component } from "react";
-import PropTypes from "prop-types";
 
 export class AutoCompleteComponent extends Component {
 
@@ -49,7 +46,6 @@ export class AutoCompleteComponent extends Component {
       onClick,
       onKeyDown,
       state: {
-        activeSuggestion,
         filteredSuggestions,
         showSuggestions,
         userInput
