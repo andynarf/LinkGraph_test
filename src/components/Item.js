@@ -14,9 +14,9 @@ function Item({data}) {
           <MapContainer lat={item.address.geo.lat} lng={item.address.geo.lng} />         
           </div>
         ))}
-        
+
         Question 3 
-        <AutoCompleteComponent suggestions={data[0].map((item) => {return item.name})} /> 
+        <AutoCompleteComponent suggestions={data.length > 0 && data[0].map((item) => {return item.name})} /> 
     </div>
   )
 }
