@@ -4,7 +4,7 @@ This project is the response to the LinkGraph exercise given to Andres Rodriguez
 
 ## Live Version
 
-  A live version of the project can be found [!here](https://linkgraph-test.netlify.app/)
+  A live version of the project can be found [here](https://linkgraph-test.netlify.app/)
 
 ## About the Project
 
